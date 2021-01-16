@@ -1,0 +1,14 @@
+version: "3"
+services:
+  atcoder_python_env:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+      args:
+        WORKDIR: /project
+    volumes:
+      - .:/project
+      - ${USERPROFILE-~}/.ssh:/home/vscode/.ssh
+    image: atcoder_python_env-image
+    container_name: atcoder_python_env-container
+    tty: true
