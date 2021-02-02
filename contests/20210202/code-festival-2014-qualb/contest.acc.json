@@ -1,0 +1,38 @@
+{
+  "contest": {
+    "id": "code-festival-2014-qualb",
+    "title": "CODE FESTIVAL 2014 予選B",
+    "url": "https://atcoder.jp/contests/code-festival-2014-qualb"
+  },
+  "tasks": [
+    {
+      "id": "code_festival_qualB_a",
+      "label": "A",
+      "title": "あるピアニスト",
+      "url": "https://atcoder.jp/contests/code-festival-2014-qualb/tasks/code_festival_qualB_a"
+    },
+    {
+      "id": "code_festival_qualB_b",
+      "label": "B",
+      "title": "歩く人",
+      "url": "https://atcoder.jp/contests/code-festival-2014-qualb/tasks/code_festival_qualB_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "code_festival_qualB_c",
+      "label": "C",
+      "title": "錬金術士",
+      "url": "https://atcoder.jp/contests/code-festival-2014-qualb/tasks/code_festival_qualB_c"
+    },
+    {
+      "id": "code_festival_qualB_d",
+      "label": "D",
+      "title": "登山家",
+      "url": "https://atcoder.jp/contests/code-festival-2014-qualb/tasks/code_festival_qualB_d"
+    }
+  ]
+}
