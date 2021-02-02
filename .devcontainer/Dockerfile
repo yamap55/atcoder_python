@@ -50,7 +50,7 @@ RUN wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git
     " >>  /home/vscode/.bashrc
 
 # atcoder-cli install
-RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
+RUN curl -sL https://deb.nodesource.com/setup_15.x | bash - \
     && apt-get install -y nodejs \
     && npm install --global atcoder-cli
 
