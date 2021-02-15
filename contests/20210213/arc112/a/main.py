@@ -21,27 +21,17 @@ MSRL = lambda n: [[int(i) for i in list(S())] for _ in range(n)]
 n = I()
 ca = LIR(n)
 
-# print(ca)
 for l, r in ca:
-    # print(l, r)
-    # print(l, r)
-    # for i in combinations(range(l, r + 1), 3):
-    #     print(i)
-    if l == r:
-        if l == 0:
-            print(1)
-        else:
-            print(0)
-        continue
     n1 = l * 2
+    if r < n1:
+        print(0)
+        # if l == r:
+        #     if l == 0:
+        #         print(1)
+        #     else:
+        # print(0)
+        continue
 
     a = r - n1 + 1
-    # if n1 < r:
-    #     print(0)
-    #     continue
-
-    # a = r - l - 1
     aa = int(a / 2 * (a + 1))
-    # if l == 0:
-    #     aa += r - l + 1
     print(aa)
