@@ -1,0 +1,38 @@
+{
+  "contest": {
+    "id": "code-festival-2015-morning-easy",
+    "title": "CODE FESTIVAL 2015 あさぷろ Easy",
+    "url": "https://atcoder.jp/contests/code-festival-2015-morning-easy"
+  },
+  "tasks": [
+    {
+      "id": "cf_2015_morning_easy_a",
+      "label": "A",
+      "title": "ヘイホー君と加算",
+      "url": "https://atcoder.jp/contests/code-festival-2015-morning-easy/tasks/cf_2015_morning_easy_a"
+    },
+    {
+      "id": "cf_2015_morning_easy_b",
+      "label": "B",
+      "title": "ヘイホー君と置き換え",
+      "url": "https://atcoder.jp/contests/code-festival-2015-morning-easy/tasks/cf_2015_morning_easy_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "cf_2015_morning_easy_c",
+      "label": "C",
+      "title": "ヘイホー君と最終試験",
+      "url": "https://atcoder.jp/contests/code-festival-2015-morning-easy/tasks/cf_2015_morning_easy_c"
+    },
+    {
+      "id": "cf_2015_morning_easy_d",
+      "label": "D",
+      "title": "ヘイホー君と削除",
+      "url": "https://atcoder.jp/contests/code-festival-2015-morning-easy/tasks/cf_2015_morning_easy_d"
+    }
+  ]
+}
