@@ -1,0 +1,38 @@
+{
+  "contest": {
+    "id": "arc052",
+    "title": "AtCoder Regular Contest 052",
+    "url": "https://atcoder.jp/contests/arc052"
+  },
+  "tasks": [
+    {
+      "id": "arc052_a",
+      "label": "A",
+      "title": "何期生？",
+      "url": "https://atcoder.jp/contests/arc052/tasks/arc052_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "arc052_b",
+      "label": "B",
+      "title": "円錐",
+      "url": "https://atcoder.jp/contests/arc052/tasks/arc052_b"
+    },
+    {
+      "id": "arc052_c",
+      "label": "C",
+      "title": " 高橋くんと不思議な道",
+      "url": "https://atcoder.jp/contests/arc052/tasks/arc052_c"
+    },
+    {
+      "id": "arc052_d",
+      "label": "D",
+      "title": "9",
+      "url": "https://atcoder.jp/contests/arc052/tasks/arc052_d"
+    }
+  ]
+}
