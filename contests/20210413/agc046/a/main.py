@@ -5,7 +5,7 @@ from collections import Counter, defaultdict, deque  # type: ignore
 from fractions import gcd  # type: ignore
 from heapq import heapify, heappop, heappush, heappushpop, heapreplace, merge  # type: ignore
 from itertools import accumulate, combinations, permutations, product  # type: ignore
-import math
+import math  # type: ignore
 
 LI = lambda: list(map(int, sys.stdin.buffer.readline().split()))
 I = lambda: int(sys.stdin.buffer.readline())

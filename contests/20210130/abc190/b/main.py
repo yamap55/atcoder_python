@@ -4,7 +4,7 @@ N = n[0]
 S = n[1]
 D = n[2]
 
-l = [[int(_) for _ in input().split()] for i in range(N)]
+l = [[int(_) for _ in input().split()] for _ in range(N)]
 
 flag = False
 for a in l:

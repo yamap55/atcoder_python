@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-from bisect import bisect, bisect_left, bisect_right, insort, insort_left, insort_right
-from collections import Counter, defaultdict, deque
-from fractions import gcd
-from heapq import heapify, heappop, heappush, heappushpop, heapreplace, merge
-from itertools import accumulate, combinations, permutations, product
+from bisect import bisect, bisect_left, bisect_right, insort, insort_left, insort_right  # type: ignore
+from collections import Counter, defaultdict, deque  # type: ignore
+from fractions import gcd  # type: ignore
+from heapq import heapify, heappop, heappush, heappushpop, heapreplace, merge  # type: ignore
+from itertools import accumulate, combinations, permutations, product  # type: ignore
 
 n = [int(_) for _ in input().split()]
 
 
 M = n[1]
 
-joken_list = [[int(_) for _ in input().split()] for i in range(M)]
+joken_list = [[int(_) for _ in input().split()] for _ in range(M)]
 
 K = int(input())
 
-humans = [[int(_) for _ in input().split()] for i in range(K)]
+humans = [[int(_) for _ in input().split()] for _ in range(K)]
 
 l = product(*humans)
 

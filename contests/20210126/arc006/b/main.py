@@ -3,7 +3,7 @@ NN = [int(_) for _ in input().split()]
 N = NN[0]
 L = NN[1]
 
-_lines = [[_ for _ in input().split("|")] for i in range(L)]
+_lines = [[_ for _ in input().split("|")] for _ in range(L)]
 
 lines = []
 for l in _lines:

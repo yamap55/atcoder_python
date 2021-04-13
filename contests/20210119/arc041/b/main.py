@@ -15,12 +15,13 @@ result = [["0" for _ in range(X)] for _ in range(Y)]
 
 
 def f(x, y):
-    xx = x - 1
-    yy = y - 1
+    # xx = x - 1
+    # yy = y - 1
 
-    # 差分
-    diff_y = len(L) - y
-    diff_x = len(L[0]) - x
+    # # 差分
+    # diff_y = len(L) - y
+    # diff_x = len(L[0]) - x
+    pass
 
 
 # output

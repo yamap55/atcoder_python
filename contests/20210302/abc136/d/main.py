@@ -28,7 +28,7 @@ def ff(ss):
 def f(ss):
     end_flag = False
     b = ss
-
+    a = None
     try:
         a = ss.index("LR")
         b = ss[0 : a + 1]

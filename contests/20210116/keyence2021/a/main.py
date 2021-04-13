@@ -2,7 +2,7 @@
 from collections import deque
 
 N = int(input())
-NN = [[int(_) for _ in input().split()] for i in range(2)]
+NN = [[int(_) for _ in input().split()] for _ in range(2)]
 
 x_list = deque(NN[0])
 y_list = deque(NN[1])
