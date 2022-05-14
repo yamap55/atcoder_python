@@ -1,6 +1,7 @@
 # atcoder_python
 
 本リポジトリは Atcoder を Python で取り組むための環境になります
+※JavaScript 環境も同梱
 
 ## 内容
 
@@ -13,7 +14,8 @@
 
 ## 環境詳細
 
-- Python : 3.8.2
+- Python: 3.8.2
+- JavaScript（Node）: 12
 
 ## 事前準備
 
@@ -50,7 +52,7 @@
 
 ※`ojt` は `oj t -c "python main.py"'` のエイリアス
 
-### 使用例
+### 使用例 1（Python の場合）
 
 ```
 acc new abs
@@ -58,6 +60,16 @@ cd abs/practicea/
 vi main.py
 ojt
 acc submit main.py
+```
+
+### 使用例 2（JavaScript の場合）
+
+```
+acc new --template js abs
+cd abs/practicea/
+vi main.js
+oj t -c "node main.js"
+acc submit
 ```
 
 ## 参考

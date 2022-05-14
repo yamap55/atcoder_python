@@ -1,0 +1,7 @@
+{
+  "task":{
+    "program": ["main.js"],
+    "submit": "main.js",
+    "testdir": "test"
+  }
+}
