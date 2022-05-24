@@ -21,32 +21,32 @@ MSRL = lambda n: [[int(i) for i in list(S())] for _ in range(n)]
 s = input()
 
 
-def ff(ss):
-    pass
+# def ff(ss):
+#     pass
 
 
-def f(ss):
-    end_flag = False
-    b = ss
-    a = None
-    try:
-        a = ss.index("LR")
-        b = ss[0 : a + 1]
-    except ValueError:
-        # 最後まで来ている
-        end_flag = True
-    if len(ss) == a + 2:
-        end_flag = True
-    ff(b)
-    if end_flag:
-        return
+# def f(ss):
+#     end_flag = False
+#     b = ss
+#     a = None
+#     try:
+#         a = ss.index("LR")
+#         b = ss[0 : a + 1]
+#     except ValueError:
+#         # 最後まで来ている
+#         end_flag = True
+#     if len(ss) == a + 2:
+#         end_flag = True
+#     ff(b)
+#     if end_flag:
+#         return
 
-    s = ss[a + 1 :]
-    print(s)
+#     s = ss[a + 1 :]
+#     print(s)
 
 
-a = s.index("LR")
-b = s[0 : a + 1]
-print(b)
-s = s[a + 1 :]
-print(s)
+# a = s.index("LR")
+# b = s[0 : a + 1]
+# print(b)
+# s = s[a + 1 :]
+# print(s)
